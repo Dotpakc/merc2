@@ -84,14 +84,88 @@ h1 {
 	background:#fff;
 }
 
-#team {
+#aboutus {
 	background:#000;
 	background:rgba(0,0,0,0.8);
 }
-#contact {
+#contact,#footer {
 	background:#202020;
 }
+#footer{
+	border-top: 1px solid #d54872;
+}
 
+strong {
+	font-size: 20px;
+}
+.social a {
+    margin-right: 10px;
+    font-size: 30px;
+    float: left;
+    border: none;
+}
+.work {
+    display: block;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.thumbnail .caption {
+    padding: 0px;
+}
+
+.work .media {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.work a .caption{
+    transition: all .1s linear;
+    -webkit-transition: all .1s linear;
+    -moz-transition: all .1s linear;
+    -o-transition: all .1s linear;
+}
+
+.work .caption {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #000;
+    opacity: 0;
+}
+.caption .work_title {
+    display: block;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 25%;
+    margin-top: -60px;
+}
+.caption p{
+    position: relative;
+    display: inline-block;
+    max-width: 90%;
+    z-index: 77;
+    color: #fff;
+    font-size: 15px;
+    border-bottom: 1px solid #d54872;
+
+}
+
+.work a h3 {
+	color: #000;
+    border-bottom: 2px solid #d54872;
+
+}
+
+.work a:hover .caption,.work a:hover h3{
+    opacity: 1;
+	color: #fff;
+}
 
 /* Navbar Styles  */
 
