@@ -3,8 +3,12 @@
 
 body {
 	/* Change the background image here  */
+
+	font-family:'Open Sans',sans-serif;
+}
+body.main{
 	background: linear-gradient(rgba(166, 123, 91, 0.6), rgba(166, 123, 91, 0.3)), url(../img/bg1.jpg);
-    background-repeat: no-repeat;
+	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center center;
 	-webkit-background-size: cover;
@@ -12,6 +16,19 @@ body {
 	-o-background-size: cover;
 	background-size: cover;
 	font-family:'Open Sans',sans-serif;
+
+}
+body.espresso{
+	background: linear-gradient(rgba(166, 123, 91, 0.7), rgba(166, 123, 91, 0.3)), url(../img/2.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family:'Open Sans',sans-serif;
+
 }
 
 a, a:visited{color:#d54872;
@@ -41,6 +58,10 @@ h1 {
 	margin-bottom:30px;
 }
 
+.span12 {
+    margin-left: -20px!important;
+}
+
 .dark {
 	color:#fff;
 }
@@ -65,27 +86,35 @@ h1 {
 }
 
 /* Section Styles  */
-
 #intro {
 	margin-top:100px;
 	text-align:center;
 	min-height:400px;
 	padding:0 0 50px;
 }
+#esspreso{
+	margin-top:200px;
+	margin-bottom: 100px;
+}
 
-#intro h1 {
+#intro h1, #esspreso h1 {
 	color:#fff;
+
+
+}
+#esspreso h1 {
+	font-weight:700;
 }
 
 #intro p {
 	padding:15px 0;
 	color:#fff;
 }
-#prods {
+#prods,#about {
 	background:#fff;
 }
-#about {
-	background:#fff;
+#about h1 {
+	color: black;
 }
 
 #aboutus {
@@ -107,6 +136,35 @@ strong {
     font-size: 30px;
     float: left;
     border: none;
+}
+
+.coffe_block .coffe_b{
+	z-index: -3;
+}
+.coffe_block:hover .coffe_b{
+	z-index: 33;
+}
+.coffe_block{
+	margin-left: 20px!important;
+	position: relative;
+	margin-top: 20px;
+}
+.coffe_img{
+	width: 100%;
+}
+.coffe_centr{
+	background: #000;
+	color: #fff;
+	font-size: 20px;
+	font-weight:700;
+	margin: 0 auto;
+	padding: 10px 0px 10px;
+	width: 100%;
+	align-content: center;
+	z-index: 3;
+	display: block;
+	position:absolute;
+	bottom:0px;
 }
 .work {
     display: block;
@@ -153,7 +211,7 @@ strong {
     position: relative;
     display: inline-block;
     max-width: 90%;
-    z-index: 77;
+    z-index: 20;
     color: #fff;
     font-size: 15px;
     border-bottom: 1px solid #d54872;
@@ -171,6 +229,44 @@ strong {
 	color: #fff;
 }
 
+#panel_phone{
+	z-index: 21;
+	display: block;
+	position: fixed;
+	background: #d54872;
+	border-radius: 0px  0px 0px 10px;
+
+	top: 150px;
+	right: -271px;
+	transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -o-transition: all .2s linear;
+}
+#panel_phone:hover{
+		right: 0px;
+
+}
+#panel_phone .ico_phone{
+	background: #d54872;
+	border-radius: 10px  0px 0px 10px;
+	margin-left: -26px;
+	color:#000;
+	font-size: 40px;
+	padding: 5px;
+}
+.panel_hide{
+	margin-top: -30px;
+	padding: 10px;
+
+}
+.panel_hide a,.panel_hide .social{
+	color: bisque;
+	padding: 5px;
+}
+.panel_hide .social:hover{
+	color:burlywood;
+}
 
 .bbt{
 	background: #ce1e52 linear-gradient(rgb(206, 70, 110), rgb(174, 5, 56));
@@ -348,7 +444,12 @@ strong {
 
 	input.span4, textarea.span4, .uneditable-input.span4 {
     width: 214px;
-}
+	}
+
+	#esspreso{
+	margin-top:100px;
+	margin-bottom: 0px;
+	}
 }
 
 @media (max-width: 1024px) {
