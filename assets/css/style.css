@@ -277,7 +277,8 @@ strong {
 	border-bottom: 2px solid #da1751;
 }
 .bbt a{
-	color: #000;
+	display: block;
+	color: #fff;
 	text-align: center;
 	padding: 10px;
 }
