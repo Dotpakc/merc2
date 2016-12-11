@@ -50,6 +50,10 @@ h1 {
 	margin:0 auto;
 }
 
+
+.modal.fade {
+    top: -120%;
+}
 /* Main Container Styles  */
 
 .main-container {
@@ -106,7 +110,7 @@ strong {
 }
 .work {
     display: block;
-    height: auto;
+    height: 400px;
     position: relative;
     overflow: hidden;
 }
@@ -167,6 +171,20 @@ strong {
 	color: #fff;
 }
 
+
+.bbt{
+	background: #ce1e52 linear-gradient(rgb(206, 70, 110), rgb(174, 5, 56));
+	border-bottom: 5px solid #da1751;
+}
+.bbt:hover{
+	background: #ce1e52 linear-gradient(rgb(174, 5, 56), rgb(206, 70, 110));
+	border-bottom: 2px solid #da1751;
+}
+.bbt a{
+	color: #000;
+	text-align: center;
+	padding: 10px;
+}
 /* Navbar Styles  */
 
 .navbar-fixed-top {
