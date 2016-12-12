@@ -100,7 +100,6 @@ h1 {
 #intro h1, #esspreso h1 {
 	color:#fff;
 
-
 }
 #esspreso h1 {
 	font-weight:700;
@@ -110,7 +109,7 @@ h1 {
 	padding:15px 0;
 	color:#fff;
 }
-#prods,#about {
+#prods,#about,#dost {
 	background:#fff;
 }
 #about h1 {
@@ -126,6 +125,12 @@ h1 {
 }
 #footer{
 	border-top: 1px solid #d54872;
+}
+#nav_logo{
+
+	position: absolute;
+	margin-top: -15px;
+
 }
 
 strong {
@@ -245,6 +250,7 @@ strong {
 #panel_phone:hover{
 		right: 0px;
 
+
 }
 #panel_phone .ico_phone{
 	background: #d54872;
@@ -323,7 +329,6 @@ strong {
 	color:#F8F8F8;
 	padding: 10px!important;
 	font-size:18px;
-	font-weight:300;
 	text-shadow:none;
 	-webkit-transition:all .1s linear;
 	-moz-transition:all .1s linear;
@@ -456,10 +461,15 @@ strong {
 input.span4, textarea.span4, .uneditable-input.span4 {
     width: 100%;
 }
-
+	#nav_logo {
+	margin-left:-20px;
+	margin-top: -9px;
+    height: 40px;
+}
+}
 @media (max-width: 480px) {
 
-}
+
 
 }
 
