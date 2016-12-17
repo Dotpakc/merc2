@@ -6,23 +6,27 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="">
 		<meta name="author" content="">
+		<link href="assets/css/main.css" rel="stylesheet">
+
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 		<script src="assets/js/jquery-1.7.2.min.js"></script>
 		<script src="assets/js/jquery-ui-1.8.22.custom.min.js"></script>
 		<script src="assets/js/jquery.imagesloaded.min.js"></script>
 		<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 
-		<link href="assets/css/main.css" rel="stylesheet">
+
 
   <!-- IE Fix for HTML5 Tags -->
   <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
 </head>
-<body class="main">
+<body class="main fix_bg">
 
   <!-- Navbar -->
-	<div class="navbar navbar-fixed-top">
+
+
+	<div class="navbar navbar-default  navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
     		<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -43,23 +47,19 @@
                             <b class="caret"></b>
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Обучение</a></li>
-                            <li><a href="#">Аренда</a></li>
-							<li><a href="#">Профессиональное оборудование</a></li>
-                            <li><a href="#">Кофеварка в офис</a></li>
-							<li><a href="#">HoReCA</a></li>
+                            <li><a href="obuch.html">Обучение</a></li>
+                            <li><a href="arenda.html">Аренда</a></li>
+
+                            <li><a href="cofe_in.html">Кофеварка в офис</a></li>
+							<li><a href="horeca.html">HoReCA</a></li>
                         </ul>
                     </li>
 
                     <li><a href="index.html#aboutus" class="scroller" data-section="#aboutus">О нас</a></li>
 					<li><a href="index.html#dost" class="scroller" data-section="#dost">Доставка</a></li>
 					<li><a href="index.html##contact" class="scroller" data-section="#contact">Контакты</a></li>
-
-
-
-                </ul>
-
-	        </div>
+				</ul>
+			</div>
         </div>
       </div>
     </div>
@@ -109,71 +109,82 @@
 		<div class="container-fluid" id="prods">
 		<div class="container light">
 			<h1>Продукция</h1>
-		<ul class="thumbnails">
+			<div class="span12" >
+			<div class="span3 bbox">
+			<section class="box feature">
+				<a class="image featured" style="cursor: pointer;">
+					<img src="assets/img/stra/india.png" alt=""></a>
+				<div class="inner">
+					<header>
+						<img src="assets/img/india_logo.png">
+					</header>
+					<p><b>Вкус:</b> нежный, бархатный, напоминает чёрный шоколад с лёгкой горчинкой. </p>
+					<p><b>Аромат:</b> шоколадные ноты, приятные цитрусовые оттенки. </p>
+				</div>
+			</section>
 
-		  <li class="span3">
-			<div class="work thumbnail">
-				<a href="#">
-					<h3>Mercato Coffee из Индии</h3>
-					<img src="assets/img/ind.jpg" class="media" alt="">
-					<div class="caption">
-						<div class="work_title">
-							<h3>Mercato Coffee из Индии</h3>
-							<p>Вкус: нежный, бархатный, напоминает чёрный шоколад с лёгкой горчинкой. </p>
-							<p>Аромат: шоколадные ноты, приятные цитрусовые оттенки. </p>
-						</div>
-					</div>
-				</a>
+
+
+
 			</div>
-		  </li>
+			<div class="span3 bbox">
+			<section class="box feature">
+				<a class="image featured" style="cursor: pointer;">
+					<img src="assets/img/stra/efiopia.png" alt=""></a>
+				<div class="inner">
+					<header>
+						<img src="assets/img/efi_logo.png">
+					</header>
+					<p><b>Вкус:</b> крепкий и бархатный, с винным привкусом и лёгкой цитрусовой кислинкой.</p>
+					<p><b>Аромат:</b> стойкий, ярко выраженный. </p>
+				</div>
+			</section>
 
-		  <li class="span3">
-			  <div class="work thumbnail">
-				<a href="#">
-					<h3>Mercato Coffee из Эфиопии</h3>
-					<img src="assets/img/efi.jpg" class="media" alt="">
-					<div class="caption">
-						<div class="work_title">
-							<h3>Mercato Coffee из Эфиопии</h3>
-							<p>Вкус: крепкий и бархатный, с винным привкусом и лёгкой цитрусовой кислинкой.</p>
-							<p>Аромат: стойкий, ярко выраженный. </p>
-						</div>
-					</div>
-				</a>
+
+
+
 			</div>
-		  </li>
+			<div class="span3 bbox">
+			<section class="box feature">
+				<a class="image featured" style="cursor: pointer;">
+					<img src="assets/img/stra/brazilia.png" alt=""></a>
+				<div class="inner">
+					<header>
+						<img src="assets/img/braz_logo.png">
+					</header>
+					<p><b>Вкус:</b> ярко выраженный, сбалансированная кислинка и сладковатые ноты, пряное послевкусие.</p>
+					<p><b>Аромат:</b> яркий, насыщенный с приятными ореховыми оттенками</p>
+				</div>
+			</section>
 
-		  <li class="span3">
-			  <div class="work thumbnail">
-				<a href="#">
-					<h3>Mercato Coffee из Бразилии</h3>
-					<img src="assets/img/braz.jpg" class="media" alt="">
-					<div class="caption">
-						<div class="work_title">
-							<h3>Mercato Coffee из Бразилии</h3>
-							<p>Вкус: ярко выраженный, сбалансированная кислинка и сладковатые ноты, пряное послевкусие.</p>
-							<p>Аромат: яркий, насыщенный с приятными ореховыми оттенками</p>
-						</div>
-					</div>
-				</a>
-			  </div>
-		  </li>
-			<li class="span3">
-				<div class="work thumbnail">
-				<a href="#">
-					<h3>Mercato Coffee из Колумбии</h3>
-					<img src="assets/img/kolum.jpg" class="media" alt="">
-					<div class="caption">
-						<div class="work_title">
-							<h3>Mercato Coffee из Колумбии</h3>
-							<p>Вкус: безупречно мягкий, глубокий с характерной, едва заметной кислинкой. </p>
-							<p>Аромат: шоколад и винные ноты, лёгкие фруктовые оттенки. </p>
-						</div>
-					</div>
-				</a>
-			  </div>
-		  </li>
-		</ul>
+
+
+
+			</div>
+			<div class="span3 bbox">
+			<section class="box feature">
+
+				<a class="image featured" style="cursor: pointer;">
+					<img src="assets/img/stra/kolumbia.png" alt=""></a>
+
+				<div class="inner">
+
+					<header>
+						<img src="assets/img/kolum_logo.png">
+					</header>
+					<p><b>Вкус:</b> безупречно мягкий, глубокий с характерной, едва заметной кислинкой. </p>
+					<p><b>Аромат:</b> шоколад и винные ноты, лёгкие фруктовые оттенки. </p>
+				</div>
+			</section>
+
+
+
+
+			</div>
+
+			</div><br><br><br><br>
+
+
 
 		<ul class="thumbnails">
 
@@ -184,7 +195,7 @@
 				</a>
 			</li>
 			<li class="span4 bbt">
-				<a href="#">
+				<a href="arab.html">
 					<h3>Арабика</h3>
 				</a>
 			</li>
